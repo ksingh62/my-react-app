@@ -15,13 +15,30 @@
   font-size: 1.5em;
   font-weight: bold;
   margin: 0 5px;
-  background-color: hsl(200, 100%, 50%);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.counter-button:hover {
-  background-color: hsl(200, 100%, 40%);
+.reset-btn{
+  background-color: hsl(200, 100%, 50%);
+}
+.increment-btn{
+  background-color: hsl(120, 100%, 50%);
+}
+.decrement-btn{
+  background-color: hsl(0, 100%, 50%);
+}
+
+/* hover */
+.reset-btn:hover {
+  background-color: hsl(200, 100%, 45%);
+}
+
+.increment-btn:hover{
+  background-color: hsl(120, 100%, 45%);
+}
+.decrement-btn:hover{
+  background-color: hsl(0, 100%, 45%);
 }
